@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+
+body{
+	background-color: #FDFDFD;
+	width: 100%;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	color: #222;
+}
+.navbar-brand {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 44px;
+	color: red;
+
+}
+.navbar-nav li{
+	padding-right: 20px;
+
+}
+
+
+.nav-link{
+	font-size: 1.1em !important;
+}
+
+.bg-dark{
+	background-color: black  !important;
+
+}
+
+.info-block{margin-top:180px;}
+
+.carousel-inner {
+	height:720px;
+}
+
+/*.carousel-inner img {
+	transform: translateY(-20%);
+	width: 100%;
+	height: 100%;
+}
+*/
+.carousel-item {
+	height: 100%;
+	background: url("../img/bg_fd.png");
+	    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+.carousel-caption{
+	position: absolute;
+	top:50%;
+	transform: translateY(-80%);
+}
+
+h1{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 120%;
+	text-align: left;
+
+	color: #FFFFFF;
+}
+
+h3{
+	margin-top: 40px;
+	
+	
+	left: 47px;
+	top: 381px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 180%;
+	text-align: left;
+	color: #FFFFFF;
+	opacity: 0.8;
+}
+
+.info-block-header{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 140%;
+	align-items: left;
+	text-align: left;
+	color: #222222;
+}
+
+.info-block-texts{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 180%;
+	text-align: left;
+	align-items: left;
+	color: #4F4F4F;
+	opacity: 0.8;
+
+}
+
+.btn-my{
+	margin-top: 40px;
+	float: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 140%;
+	align-items: center;
+	letter-spacing: 0.085em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	border-radius: 0 !important;
+	width: 250px;
+	height: 55px;
+
+	background: #FD603D;
+}
+
+.btn-car{
+	margin-top: 20px;
+	margin-left: 67px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 140%;
+	align-items: center;
+	letter-spacing: 0.085em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	border-radius: 0 !important;
+	width: 120px;
+	height: 55px;
+
+	background: #FD603D;
+}
+
+
+.auto_cart{
+
+	margin-top: 150px;
+	width: 255px;
+	height: 304px;
+	background: #F4F4F4;
+	box-shadow: 0px 30.1607px 20px rgba(222, 222, 222, 0.02), 0px 42.947px 20px rgba(222, 222, 222, 0.0196737), 0px 37.9495px 20px rgba(222, 222, 222, 0.03), 0px 27px 20px rgba(222, 222, 222, 0.25);
+	border-radius: 10px;
+}
+
+.auto_img{
+	margin-left: 44px;
+	margin-top: 44px;
+	width: 172px;
+	height: 113px;
+
+}
+
+.auto_des{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 140%;
+	/* or 22px */
+	margin-left: 25px;
+	margin-top: 30px;
+	color: #4F4F4F;
+
+}
+
+
+
+.img_of_audi{
+	width: 534px;
+}
+
+.info-block-text{
+
+	margin-left: 40px;
+	margin-top: 40px;
+}
+
+.footer{
+	background-color: black;
+	height: 200px;
+
+}
+
+
+
+
+
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+h1{	
+	font-size: 48px;
+
+}
+
+h3{
+
+font-size: 18px;
+margin-top: 40px;
+opacity: 0.8;
+}
+
+.carousel-caption{
+	position: absolute;
+	top:50%;
+	transform: translateY(-80%);
+}
+.img_of_audi{
+	width: 534px;
+}
+.auto_cart{
+
+	margin-top: 130px;
+}
+
+
+}
+
+
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+h1{	
+	font-size: 40px;
+}
+
+h3{
+font-size: 17px;
+margin-top: 35px;
+opacity: 0.8;
+}
+.carousel-caption{
+	position: absolute;
+	top:49%;
+	transform: translateY(-80%);
+}
+.img_of_audi{
+	width: 490px;
+}
+.auto_cart{
+
+	margin-top: 80px;
+}
+.info-block-texts{
+	font-size: 15px;
+}
+.info-block-text{
+
+	margin-left: 0px;
+	margin-top: 20px;
+}
+
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+h1{	
+	font-size: 35px;
+}
+
+h3{
+font-size: 16px;
+margin-top: 30px;
+opacity: 1;
+}
+.carousel-caption{
+	position: absolute;
+	top:48%;
+	transform: translateY(-80%);
+}
+.img_of_audi{
+	width: 400px;
+}
+
+.auto_cart{
+
+	margin-top: 40px;
+}
+
+.info-block-texts{
+	font-size: 15px;
+}
+
+
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+h1{	
+	font-size: 30px;
+}
+h3{
+font-size: 15px;
+margin-top: 25px;
+opacity: 1;
+}
+.carousel-caption{
+	position: absolute;
+	top:47%;
+	transform: translateY(-80%);
+}
+.img_of_audi{
+	width: 450px;
+}
+
+.auto_cart{
+
+	margin-top: 40px;
+}
+.info-block-texts{
+	font-size: 15px;
+}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+h1{	
+	font-size: 25px;
+}
+h3{
+font-size: 14px;
+margin-top: 20px;
+opacity: 1;
+}
+.carousel-caption{
+	position: absolute;
+	top:51%;
+	transform: translateY(-80%);
+}
+.img_of_audi{
+	width: 320px;
+}
+
+.auto_cart{
+
+	margin-top: 40px;
+}
+.info-block-texts{
+	font-size: 15px;
+}
+
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+
+
+.btn-my{
+	
+	width: 200px;
+
+}
+
+h1{	
+	font-size: 18px;
+}
+h3{
+font-size: 13px;
+margin-top: 15px;
+opacity: 1;
+
+}
+
+.carousel-caption{
+	position: absolute;
+	top:52%;
+	transform: translateY(-80%);
+}
+.img_of_audi{
+	width: 280px;
+}
+
+.auto_cart{
+
+	margin-top: 40px;
+}
+.info-block-texts{
+	font-size: 15px;
+}
+
+}
